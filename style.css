@@ -1,0 +1,318 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #f1f3f6 !important;
+}
+
+.bg-img {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("img/img.png");
+  background-size: cover;
+  position: relative;
+}
+
+.bg-img .bg-color {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-img .bg-color * {
+  color: white !important;
+  text-transform: uppercase;
+}
+
+.bg-img .bg-color .dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 6px;
+  top: 103%;
+  left: -40%;
+}
+
+.bg-img .bg-color .dropdown-menu li a:hover {
+  background: #000;
+}
+
+#navbarDropdown {
+  text-decoration: underline;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.container .my-row1 {
+  width: 100%;
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+}
+
+.container #grey {
+  background: #757575;
+  -webkit-box-shadow: 0px 3px 10px 4px #000000;
+  box-shadow: 0px 3px 10px 4px #000000;
+}
+
+.container #blue {
+  background: blue;
+  -webkit-box-shadow: 0px 3px 10px 4px #000000;
+  box-shadow: 0px 3px 10px 4px #000000;
+}
+
+.container #white {
+  background: white;
+  -webkit-box-shadow: 0px 3px 10px 4px #000000;
+  box-shadow: 0px 3px 10px 4px #000000;
+}
+
+* {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .bg-img {
+    min-height: 50vh;
+  }
+}
+
+.container .my-row2 {
+  width: 100%;
+  height: 350px;
+}
+
+.container .my-row2 img {
+  width: 100%;
+}
+
+.my-bg {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65))), url("img/bg.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.65)), url("img/bg.png");
+  width: 100%;
+  min-height: 80vh;
+  margin-top: 10px;
+  position: relative;
+  background-size: cover;
+}
+
+.my-bg .text {
+  width: 100%;
+  height: 100%;
+}
+
+.my-bg .text h3 {
+  width: 29%;
+}
+
+.container .myrow-3 {
+  width: 100%;
+}
+
+.container .myrow-3 .mycol {
+  width: 433px;
+  height: 334px;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.container .myrow-4 {
+  width: 100%;
+}
+
+.container .myrow-4 .mycol1 {
+  width: 310px;
+  height: 640px;
+}
+
+@media (max-width: 991px) {
+  .my-bg {
+    margin-top: 400px;
+    min-height: 40vh;
+  }
+}
+
+.mycontainer {
+  width: 100%;
+  height: 600px;
+  background-color: #f1f3f6;
+}
+
+.mycontainer .row {
+  width: 100%;
+  height: 500px;
+}
+
+.mycontainer .row .mycol img {
+  width: 100%;
+}
+
+.con-img {
+  background-image: url("img/bf-img.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .con-img {
+    min-height: 190vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .con-img {
+    min-height: 190vh;
+  }
+}
+
+.con-img .mycont {
+  width: 100%;
+}
+
+.con-img .mycont .text {
+  width: 100%;
+  min-width: 250px;
+}
+
+.con-img .mycont .row {
+  width: 100%;
+  height: 300px;
+}
+
+.con-img .mycont .row .col {
+  width: 400px;
+  height: 330px;
+}
+
+.con-img .mycont .row .col-lg-4 {
+  margin-top: 1700px;
+}
+
+@media (max-width: 768px) {
+  .con-img {
+    margin-top: 1100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .con-img {
+    margin-top: 1400px;
+  }
+}
+
+@media (min-width: 992px) {
+  .con-img {
+    margin-top: 0;
+  }
+}
+
+.z-index-2 {
+  margin-top: 100px;
+}
+
+.myconn {
+  margin-top: -50px;
+}
+
+.myconn .row .col {
+  width: 310px;
+  height: 142px;
+}
+
+.bg-d {
+  width: 100%;
+  min-height: 360px;
+  margin-top: -50px;
+}
+
+.bg-d .row {
+  width: 100%;
+  height: 100%;
+}
+
+.bg-d .row .col {
+  width: 50%;
+  height: 100%;
+}
+
+.bq {
+  width: 100%;
+  min-height: 100px;
+  background: #000;
+}
+
+.bq .text {
+  width: 30%;
+}
+
+.bq .text a {
+  padding: 4px;
+}
+
+.bq .icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 24px;
+  margin-right: 40px;
+}
+
+.me-5 {
+  margin-right: 190px;
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+}
+/*# sourceMappingURL=style.css.map */
